@@ -116,8 +116,16 @@ button{
     background-color: #00E676;
     border: none;
     border-radius: 17px;
-    color: white;
+    /* color: white; */
     
+}
+.b1 a{
+    text-decoration: none;
+    color: white;
+}
+.b2 a{
+    text-decoration: none;
+    color: white;
 }
 .b1 i{
     margin-left: 3px;
@@ -640,10 +648,7 @@ iframe{
     flex-direction: column;
 
    }
-    .head {
-        padding-left: 50px;
-        /* padding-right: 30px; */
-    }
+   
    .ch {
        
        justify-content: center;}
@@ -666,7 +671,7 @@ iframe{
        }
 .l1{
     gap: 2rem;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 .l-btn button{
@@ -848,6 +853,7 @@ width: 70%;
 
 .feature-item .icon {
   flex-shrink: 0;
+  margin-top: 2rem;
 }
 
 .track-card {
@@ -908,7 +914,13 @@ width: 70%;
     grid-template-columns: 1fr;
     gap: 3rem;
   }
-
+.feature-item .icon {
+  flex-shrink: 0;
+  margin-top: 3rem;
+}
+/* .ic12{
+    margin-top: 2px;
+} */
   .track-card {
     padding: 1.5rem;
   }
