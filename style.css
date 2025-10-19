@@ -133,6 +133,7 @@ button{
     border: none;
     border-radius: 17px;
     color: white;
+    border: 1px solid white;
 
 }
 .l-btn{
@@ -619,7 +620,7 @@ iframe{
     background-color: white;
     color: black;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 7px 40px;
+    /* padding: 7px 40px; */
 }
 
 /* Responsive */
@@ -754,6 +755,9 @@ width: 70%;
 
 }
 @media (max-width:480px){
+    .mh4 .p1{
+        line-height: 40px;
+    }
     .l1 h1{
         font-size: 2.4rem;
         /* font-weight: 800; */
@@ -803,9 +807,7 @@ width: 70%;
   color: white;
   overflow: hidden;
 }
-.feature-right{
-    height: 100%;
-}
+
 .feature-grid {
   width: 90%;
   max-width: 1200px;
@@ -855,6 +857,12 @@ width: 70%;
   border-radius: 16px;
   padding: 2rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+#lolo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.3;
 }
 
 .track-card h3 {
