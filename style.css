@@ -61,6 +61,8 @@ width: 100%;
     padding: 14px 40px;
 }
 .land{
+    max-width: 1500px;
+    margin: auto;
 padding-left: 2rem;
     color: #F5F5F5;
     display: grid;
@@ -247,6 +249,8 @@ font-size: 20px;
 margin-top: 27px;
 }
 .mg{
+     max-width: 1500px;
+    
 width: 90%;
 margin: auto;
 height: auto;
@@ -338,7 +342,8 @@ color: #0e4647;
 
 }
 .m2g{
-   
+    max-width: 1500px;
+    margin: auto;
     width: 90%;
     margin: 50px auto;
     height: auto;
@@ -985,3 +990,4 @@ body.blur-active .lion {
     text-shadow: 0 0 10px #00FFAA, 0 0 20px #00FFAA;
     transform: scale(1.05);
 }
+
